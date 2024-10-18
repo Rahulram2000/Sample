@@ -12,5 +12,5 @@ jobs:
       - name: Run a command
         run: |
              echo "Self-hosted runner is working!"
-             mkdir clone_repo
+             mkdir clone_repo && clone_repo
              git clone https://github.com/Rahulram2000/Sample.git 
